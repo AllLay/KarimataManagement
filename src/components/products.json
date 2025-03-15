@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "name": "Product A",
+      "company": "Company1",
+      "price": 5000,
+      "image": "/main/image/product/client.png",
+      "description": "a"
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "company": "Company2",
+      "price": 10000,
+      "image": "/main/image/product/client.png",
+      "description": "a"
+    }
+  ]
+  
