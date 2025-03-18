@@ -14,10 +14,10 @@ const CheckOut = () => {
 
   const handlePurchase = async () => {
     try {
-      const response = await fetch("karimatamanagement-production.up.railway.app/checkout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ productId: product.id, clientEmail: clientEmail }),
+      const response = await fetch("https://karimatamanagement-production.up.railway.app/checkout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ productId: product.id, clientEmail: clientEmail }),
     });
 
       const data = await response.json();
