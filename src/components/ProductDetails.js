@@ -1,14 +1,19 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import productsData from "./products.json";
 
 const ProductDetail = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const product = productsData.find((item) => item.id.toString() === id);
 
   if (!product) {
     return <div className="text-center text-red-500">Product not found!</div>;
   }
+
+  const handleBuy = () => {
+    navigate("/checkout", { state: { product } });
+  };
 
   return (
     <div className="p-6 text-gray-600 flex justify-center">
@@ -23,6 +28,12 @@ const ProductDetail = () => {
           <h3 className="mb-2">By {product.company}</h3>
           <p className="text-lg font-bold">{new Intl.NumberFormat().format(product.price)} MMK</p>
           <p className="mt-3">{product.description}</p>
+          <button
+            onClick={handleBuy}
+            className="mt-6 bg-blue-500 text-white p-3 rounded-md w-full sm:w-auto hover:bg-blue-700 transition duration-300"
+          >
+            Buy
+          </button>
         </div>
       </div>
     </div>
