@@ -14,11 +14,11 @@ const CheckOut = () => {
 
   const handlePurchase = async () => {
     try {
-      const response = await fetch("https://karitamamanagement.up.railway.app", {
+      const response = await fetch("https://karitamamanagement.up.railway.app/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ productId: product.id, clientEmail: clientEmail }),
-      });
+    });
 
       const data = await response.json();
       if (response.ok) {
