@@ -24,16 +24,17 @@ const ProductDetail = () => {
           className="w-48 h-auto rounded-md"
         />
         <div>
-          <h2 className="text-xl font-bold mb-2">{product.name}</h2>
-          <h3 className="mb-2">By {product.company}</h3>
-          <p className="text-lg font-bold">{new Intl.NumberFormat().format(product.price)} MMK</p>
-          <p className="mt-3">{product.description}</p>
-          <button
-            onClick={handleBuy}
-            className="mt-6 bg-blue-500 text-white p-3 rounded-md w-full sm:w-auto hover:bg-blue-700 transition duration-300"
-          >
-            Buy
-          </button>
+            <h2 className="text-xl font-bold mb-2">{product.name}</h2>
+            <h3 className="mb-2">By {product.company}</h3>
+            <p className="text-lg font-bold">{new Intl.NumberFormat().format(product.price)} MMK</p>
+            <p className="mt-3">{product.description}</p>
+            <p>Contact for more Info: 09445500066</p>
+            <button
+              onClick={handleBuy}
+              className="mt-6 bg-blue-500 text-white p-3 rounded-md w-full sm:w-auto hover:bg-blue-700 transition duration-300"
+            >
+              Buy
+            </button>
         </div>
       </div>
     </div>
