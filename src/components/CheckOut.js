@@ -44,25 +44,25 @@ const CheckOut = () => {
   };
 
   return (
-    <div className="p-6 text-gray-600 flex justify-center">
-      <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center gap-6 w-[600px]">
-        <h2 className="text-xl font-bold mb-2">Checkout</h2>
-        <h3 className="text-lg mb-3">Product: {product.name}</h3>
+    <div className="p-4 flex justify-center items-center min-h-screen">
+      <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center gap-6 w-full max-w-lg">
+        <h2 className="text-lg sm:text-xl font-bold mb-2">Checkout</h2>
+        <h3 className="text-sm sm:text-lg mb-3">Product: {product.name}</h3>
         <img
           src={product.image}
           alt={product.name}
-          className="w-48 h-auto rounded-md mb-3"
+          className="w-full sm:w-48 h-auto rounded-md mb-3"
         />
-        <p className="text-lg font-bold">
+        <p className="text-sm sm:text-lg font-bold">
           {new Intl.NumberFormat().format(product.price)} MMK
         </p>
-        <p className="mt-3">{product.description}</p>
+        <p className="text-xs sm:text-sm">{product.description}</p>
 
-        <div className="mt-4 w-full flex flex-col gap-3">
-          <label className="text-white">Your Name:</label>
+        <div className="mt-4 w-full">
+          <label className="text-white text-sm sm:text-base">Your Name:</label>
           <input
             type="text"
-            className="p-2 rounded-md w-full"
+            className="p-2 rounded-md w-full text-black"
             value={clientName}
             onChange={(e) => setClientName(e.target.value)}
             placeholder="Enter your name"
@@ -70,9 +70,9 @@ const CheckOut = () => {
         </div>
 
         <div className="mt-4 w-full">
-          <label className="text-white">Preferred Contact Method:</label>
+          <label className="text-white text-sm sm:text-base">Preferred Contact Method:</label>
           <select
-            className="p-2 rounded-md w-full"
+            className="p-2 rounded-md w-full text-black"
             value={contactMethod}
             onChange={(e) => setContactMethod(e.target.value)}
           >
@@ -84,10 +84,10 @@ const CheckOut = () => {
 
         {contactMethod !== "phone" && (
           <div className="mt-4 w-full">
-            <label className="text-white">Your Email:</label>
+            <label className="text-white text-sm sm:text-base">Your Email:</label>
             <input
               type="email"
-              className="p-2 rounded-md w-full"
+              className="p-2 rounded-md w-full text-black"
               value={clientEmail}
               onChange={(e) => setClientEmail(e.target.value)}
               placeholder="Enter your email"
@@ -97,10 +97,10 @@ const CheckOut = () => {
 
         {contactMethod !== "email" && (
           <div className="mt-4 w-full">
-            <label className="text-white">Your Phone Number:</label>
+            <label className="text-white text-sm sm:text-base">Your Phone Number:</label>
             <input
               type="tel"
-              className="p-2 rounded-md w-full"
+              className="p-2 rounded-md w-full text-black"
               value={clientPhone}
               onChange={(e) => setClientPhone(e.target.value)}
               placeholder="Enter your phone number"
@@ -109,7 +109,7 @@ const CheckOut = () => {
         )}
 
         <button
-          className="mt-6 bg-blue-500 text-white p-3 rounded-md"
+          className="mt-6 bg-blue-500 text-white p-3 rounded-md w-full sm:w-auto hover:bg-blue-700 transition duration-300"
           onClick={handlePurchase}
           disabled={
             !clientName ||
