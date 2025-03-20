@@ -1,57 +1,12 @@
 [
     {
-      "id": 1,
-      "name": "Product A",
-      "company": "Company1",
-      "owner": "thefoolsstudio3@gmail.com",
-      "price": 5000,
-      "image": "/main/image/product/client.png",
-      "description": "a"
-    },
-    {
-      "id": 2,
-      "name": "Product B",
-      "company": "Company2",
-      "owner": "thefoolsstudio3@gmail.com",
-      "price": 10000,
-      "image": "/main/image/product/client.png",
-      "description": "a"
-    },
-    {
-      "id": 3,
-      "name": "Product C",
-      "company": "Company3",
-      "owner": "thefoolsstudio3@gmail.com",
-      "price": 15000,
-      "image": "/main/image/product/client.png",
-      "description": "a"
-    },
-    {
-      "id": 4,
-      "name": "Product D",
-      "company": "Company2",
-      "owner": "thefoolsstudio3@gmail.com",
-      "price": 20000,
-      "image": "/main/image/product/client.png",
-      "description": "a"
-    },
-    {
-      "id": 5,
-      "name": "Product E",
-      "company": "Company2",
-      "owner": "thefoolsstudio3@gmail.com",
-      "price": 25000,
-      "image": "/main/image/product/client.png",
-      "description": "a"
-    },
-    {
-      "id": 6,
-      "name": "Product F",
-      "company": "Company2",
-      "owner": "thefoolsstudio3@gmail.com",
-      "price": 10000,
-      "image": "/main/image/product/client.png",
-      "description": "a"
+        
+        "id": 1,
+        "name": "Fitness",
+        "company": "SDK BUSINESS GROUP",
+        "owner": "thefoolsstudio3@gmail.com",
+        "price": 5000,
+        "image": "/main/image/product/FitnessSDK.png",
+        "description": "ဒီ Programကို ဝယ်ယူတဲ့သူတွေဟာ အရပ်ရှည်ဖိုအတွက်အခွင့်အရေးပိုရမှာဖြစ်ပြီးစနစ်တကျ လိုက်နာမယ်ဆိုရင်တော့ အရပ်ရှည်ကိုရှည်လာမှာဖြစ်ပါတယ်။"
     }
-  ]
-  
+]
