@@ -17,21 +17,34 @@ const CheckOut = () => {
   }
 
   const handlePurchase = async () => {
-    try {
-      const response = await fetch(
-        "https://karimatamanagement-production.up.railway.app/checkout",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            productId: product.id,
-            variationId: selectedVariation.id,
-            clientName,
-            clientEmail: contactMethod !== "phone" ? clientEmail : "",
-            clientPhone: contactMethod !== "email" ? clientPhone : "",
-          }),
-        }
-      );
+  try {
+    const response = await fetch(
+      "https://karimatamanagement-production.up.railway.app/checkout",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          productId: product.id,
+          variationId: selectedVariation.id,
+          clientName,
+          clientEmail: contactMethod !== "phone" ? clientEmail : "",  // Sending email if contact method is not phone
+          clientPhone: contactMethod !== "email" ? clientPhone : "",  // Sending phone if contact method is not email
+        }),
+      }
+    );
+
+    const data = await response.json();
+    if (response.ok) {
+      alert(data.message);
+      navigate("/");
+    } else {
+      alert("Error: " + (data.message || "Purchase failed"));
+    }
+  } catch (error) {
+    alert("Failed to connect to the server.");
+  }
+};
+
   
       const data = await response.json();
       if (response.ok) {
