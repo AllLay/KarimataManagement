@@ -16,7 +16,7 @@ const CheckOut = () => {
     return <div className="text-center text-red-500">Product or variation not found!</div>;
   }
 
-  const handlePurchase = async () => {  // Ensure async here
+  const handlePurchase = async () => {
   try {
     const response = await fetch(
       "https://karimatamanagement-production.up.railway.app/checkout",
@@ -33,7 +33,7 @@ const CheckOut = () => {
       }
     );
 
-    const data = await response.json(); // Await is used here inside async function
+    const data = await response.json();  
     if (response.ok) {
       alert(data.message);
       navigate("/");
