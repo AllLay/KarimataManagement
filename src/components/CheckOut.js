@@ -8,11 +8,12 @@ const CheckOut = () => {
   const [clientEmail, setClientEmail] = useState("");
   const [clientPhone, setClientPhone] = useState("");
   const [contactMethod, setContactMethod] = useState("email");
-
+  
   const product = location.state?.product;
+  const selectedVariation = location.state?.selectedVariation;
 
-  if (!product) {
-    return <div className="text-center text-red-500">Product not found!</div>;
+  if (!product || !selectedVariation) {
+    return <div className="text-center text-red-500">Product or variation not found!</div>;
   }
 
   const handlePurchase = async () => {
@@ -44,35 +45,39 @@ const CheckOut = () => {
   };
 
   return (
-    <div className="p-4 flex justify-center items-center min-h-screen">
-      <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center gap-6 w-full max-w-lg">
-        <h2 className="text-lg sm:text-xl font-bold mb-2">Checkout</h2>
-        <h3 className="text-sm sm:text-lg mb-3">Product: {product.name}</h3>
+    <div className="p-6 flex justify-center items-center min-h-screen bg-black">
+      <div className="bg-[#2A2A2A] p-6 rounded-lg shadow-lg flex flex-col items-center gap-6 w-full max-w-lg">
+        <h2 className="text-xl font-bold mb-4 text-white" style={{ fontFamily: "Montserrat, sans-serif" }}>Checkout</h2>
+        <h3 className="text-lg mb-4 text-white" style={{ fontFamily: "Arimo, sans-serif" }}>Product: {product.name}</h3>
         <img
           src={product.image}
           alt={product.name}
-          className="w-full sm:w-48 h-auto rounded-md mb-3"
+          className="w-48 h-48 rounded-md mb-4 border-4 border-gray-600 object-cover"
         />
-        <p className="text-sm sm:text-lg font-bold">
-          {new Intl.NumberFormat().format(product.price)} MMK
+        <p className="text-lg font-bold text-yellow-400">
+          {new Intl.NumberFormat().format(selectedVariation.price)} MMK
         </p>
-        <p className="text-xs sm:text-sm">{product.description}</p>
-
-        <div className="mt-4 w-full">
-          <label className="text-white text-sm sm:text-base">Your Name:</label>
+        <p className="text-sm text-gray-300 mb-4">{product.description}</p>
+        
+        <div className="w-full mb-4">
+          <p className="text-white text-sm">Selected: {selectedVariation.name}</p>
+        </div>
+        
+        <div className="w-full mt-4">
+          <label className="text-white text-sm">Your Name:</label>
           <input
             type="text"
-            className="p-2 rounded-md w-full text-black"
+            className="p-3 rounded-md w-full text-black mt-2"
             value={clientName}
             onChange={(e) => setClientName(e.target.value)}
             placeholder="Enter your name"
           />
         </div>
 
-        <div className="mt-4 w-full">
-          <label className="text-white text-sm sm:text-base">Preferred Contact Method:</label>
+        <div className="w-full mt-4">
+          <label className="text-white text-sm">Preferred Contact Method:</label>
           <select
-            className="p-2 rounded-md w-full text-black"
+            className="p-3 rounded-md w-full text-black mt-2"
             value={contactMethod}
             onChange={(e) => setContactMethod(e.target.value)}
           >
@@ -83,11 +88,11 @@ const CheckOut = () => {
         </div>
 
         {contactMethod !== "phone" && (
-          <div className="mt-4 w-full">
-            <label className="text-white text-sm sm:text-base">Your Email:</label>
+          <div className="w-full mt-4">
+            <label className="text-white text-sm">Your Email:</label>
             <input
               type="email"
-              className="p-2 rounded-md w-full text-black"
+              className="p-3 rounded-md w-full text-black mt-2"
               value={clientEmail}
               onChange={(e) => setClientEmail(e.target.value)}
               placeholder="Enter your email"
@@ -96,11 +101,11 @@ const CheckOut = () => {
         )}
 
         {contactMethod !== "email" && (
-          <div className="mt-4 w-full">
-            <label className="text-white text-sm sm:text-base">Your Phone Number:</label>
+          <div className="w-full mt-4">
+            <label className="text-white text-sm">Your Phone Number:</label>
             <input
               type="tel"
-              className="p-2 rounded-md w-full text-black"
+              className="p-3 rounded-md w-full text-black mt-2"
               value={clientPhone}
               onChange={(e) => setClientPhone(e.target.value)}
               placeholder="Enter your phone number"
@@ -109,7 +114,7 @@ const CheckOut = () => {
         )}
 
         <button
-          className="mt-6 bg-blue-500 text-white p-3 rounded-md w-full sm:w-auto hover:bg-blue-700 transition duration-300"
+          className="mt-6 bg-yellow-500 text-black p-3 rounded-md w-full sm:w-auto hover:bg-yellow-600 transition duration-300"
           onClick={handlePurchase}
           disabled={
             !clientName ||
