@@ -27,8 +27,8 @@ const CheckOut = () => {
           productId: product.id,
           variationId: selectedVariation.id,
           clientName,
-          clientEmail: contactMethod !== "phone" ? clientEmail : "",  // Sending email if contact method is not phone
-          clientPhone: contactMethod !== "email" ? clientPhone : "",  // Sending phone if contact method is not email
+          clientEmail: contactMethod !== "phone" ? clientEmail : "",
+          clientPhone: contactMethod !== "email" ? clientPhone : "",
         }),
       }
     );
