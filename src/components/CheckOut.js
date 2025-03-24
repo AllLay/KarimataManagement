@@ -16,7 +16,7 @@ const CheckOut = () => {
     return <div className="text-center text-red-500">Product or variation not found!</div>;
   }
 
-  const handlePurchase = async () => {
+  const handlePurchase = async () => {  // Ensure async here
   try {
     const response = await fetch(
       "https://karimatamanagement-production.up.railway.app/checkout",
@@ -33,7 +33,7 @@ const CheckOut = () => {
       }
     );
 
-    const data = await response.json();
+    const data = await response.json(); // Await is used here inside async function
     if (response.ok) {
       alert(data.message);
       navigate("/");
@@ -44,31 +44,6 @@ const CheckOut = () => {
     alert("Failed to connect to the server.");
   }
 };
-
-    const data = await response.json();
-    if (response.ok) {
-      alert(data.message);
-      navigate("/");
-    } else {
-      alert("Error: " + (data.message || "Purchase failed"));
-    }
-  } catch (error) {
-    alert("Failed to connect to the server.");
-  }
-};
-
-  
-      const data = await response.json();
-      if (response.ok) {
-        alert(data.message);
-        navigate("/");
-      } else {
-        alert("Error: " + (data.message || "Purchase failed"));
-      }
-    } catch (error) {
-      alert("Failed to connect to the server.");
-    }
-  };  
 
   return (
     <div className="p-6 flex justify-center items-center min-h-screen bg-black">
