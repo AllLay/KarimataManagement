@@ -25,13 +25,14 @@ const CheckOut = () => {
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             productId: product.id,
+            variationId: selectedVariation.id,
             clientName,
             clientEmail: contactMethod !== "phone" ? clientEmail : "",
             clientPhone: contactMethod !== "email" ? clientPhone : "",
           }),
         }
       );
-
+  
       const data = await response.json();
       if (response.ok) {
         alert(data.message);
@@ -42,7 +43,7 @@ const CheckOut = () => {
     } catch (error) {
       alert("Failed to connect to the server.");
     }
-  };
+  };  
 
   return (
     <div className="p-6 flex justify-center items-center min-h-screen bg-black">
