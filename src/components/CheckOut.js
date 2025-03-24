@@ -45,6 +45,18 @@ const CheckOut = () => {
   }
 };
 
+    const data = await response.json();
+    if (response.ok) {
+      alert(data.message);
+      navigate("/");
+    } else {
+      alert("Error: " + (data.message || "Purchase failed"));
+    }
+  } catch (error) {
+    alert("Failed to connect to the server.");
+  }
+};
+
   
       const data = await response.json();
       if (response.ok) {
