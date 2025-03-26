@@ -6,15 +6,13 @@ const ProductDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [selectedProduct, setSelectedProduct] = useState(() => {
-    const product = productsData.find((item) =>
-      item.variations.some((variation) => variation.id.toString() === id)
-    );
+    const product = productsData.find((item) => item.id.toString() === id);
     if (product) {
-      const selectedVariation = product.variations.find((variation) => variation.id.toString() === id);
-      return { ...product, selectedVariation };
+      return { ...product, selectedVariation: product.variations[0] };
     }
     return null;
   });
+
 
   if (!selectedProduct) {
     return <div className="text-center text-red-500 mt-10 text-lg">Product not found!</div>;
