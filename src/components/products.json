@@ -22,6 +22,8 @@
         "image": "/main/image/product/TikTokAutomation.png",
         "description": "TikTok automation ဆိုတာကတော့ ရှင်းပါတယ်👀",
         "contact": "@rihyo1457",
-        "variations": []
+        "variations": [
+            { "id": 1, "name": "TikTok Course", "price": 0, "image": "/main/image/product/TikTokAutomation.png" }
+        ]
     }
 ]
