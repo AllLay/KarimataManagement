@@ -13,5 +13,14 @@
             { "id": 3, "name": "Fitness Course-3", "price": 35000, "image": "/main/image/product/FitnessSDK.png" },
             { "id": 4, "name": "Fitness Course-4", "price": 65000, "image": "/main/image/product/FitnessSDK.png" }
         ]
+    },
+    {
+        "id": 2,
+        "name": "TikTok Automation Course",
+        "company": "TikTok Automation",
+        "owner": "",
+        "image": "/main/image/product/TikTokAutomation.png",
+        "description": "",
+        "contact": "@rihyo1457"
     }
 ]
