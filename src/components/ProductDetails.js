@@ -42,7 +42,8 @@ const ProductDetail = () => {
             {new Intl.NumberFormat().format(selectedProduct.selectedVariation.price)} MMK
           </p>
           <p className="mt-3 text-sm text-gray-300">{selectedProduct.description}</p>
-          <p className="text-sm text-gray-400">📞 Contact: {selectedProduct.contact}</p>
+          <br />
+          <p className="text-sm text-gray-400">Contact Us: {selectedProduct.contact}</p>
         </div>
         
         <div className="flex gap-4 justify-center">
