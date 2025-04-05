@@ -25,5 +25,32 @@
         "variations": [
             { "id": 1, "name": "TikTok Course", "price": 0, "image": "/main/image/product/TikTokAutomation.png" }
         ]
+    },
+    {
+        "id": 3,
+        "name": "T-Shirt",
+        "company": "Eight Two O Eight",
+        "owner": "e8152280@gmail.com",
+        "image": "/main/image/product/Eight_Two_O_Eight.png",
+        "description": "Hight Quality Low Budget",
+        "contact": "Telegram: @Eight208",
+        "variations": [
+            { "id": 1, "name": "T-Shirt", "price": 0, "image": "/main/image/product/Eight_Two_O_Eight.png" }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Game Boost",
+        "company": "Jade Tiger Digital Products",
+        "owner": "richardhtoonay@gmail.com",
+        "image": "/main/image/product/RankBoost.png",
+        "description": "Player ",
+        "contact": "Ph: "+959976300241",
+        "variations": [
+            { "id": 1, "name": "Epic V to Legend V + 1 wp(Gift)", "price": 30000, "image": "/main/image/product/RankBoost.png" },
+            { "id": 2, "name": "Legend V to Mythic + 2 wp(Gift)", "price": 65000, "image": "/main/image/product/RankBoost.png" },
+            { "id": 3, "name": "Mythic 1 star to 20 stars + 1 wp(Gift)", "price": 30000, "image": "/main/image/product/RankBoost.png" },
+            { "id": 4, "name": "Mythic 21 stars to 50 + 1 wp(Gift)", "price": 45000, "image": "/main/image/product/RankBoost.png" }
+        ]
     }
 ]
