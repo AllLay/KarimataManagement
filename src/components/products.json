@@ -23,7 +23,7 @@
         "description": "TikTok automation ဆိုတာကတော့ ရှင်းပါတယ်👀\n\nFace မပါဘဲ video တွေလုပ်ပြီး အဲ့အတွက် is TikTok ကနေ reward ပြန်ပေးတာဖြစ်ပါတယ် 🐷\n\n5ကောင့်လောက်လုပ်ထားရင်ကို ရှယ်ပဲနော် ဘရိုတို🪧\n\nကျနော့်တိုနဲ့လက်တွဲရင်တော့ 100% ရအောင် ကူညီပေးမှာဖြစ်ပါတယ် 📈",
         "contact": "Telegram: @rihyo1457",
         "variations": [
-            { "id": 1, "name": "TikTok Course", "price": 0, "image": "/main/image/product/TikTokAutomation.png" }
+            { "id": 1, "name": "TikTok Course", "price": 30000, "image": "/main/image/product/TikTokAutomation.png" }
         ]
     },
     {
@@ -44,7 +44,7 @@
         "company": "Jade Tiger Digital Products",
         "owner": "richardhtoonay@gmail.com",
         "image": "/main/image/product/RankBoost.png",
-        "description": "Player ",
+        "description": "Player တွေကိုလိုချင်တဲ့ rank အထိတင်ပေးပြီးတော့rank boosting service \n\nကိုလုပ်ရင်လဲ rank တစ်ခုထဲမဟုတ်ပဲနဲ့ ကိုယ်လိုချင်တဲ့ hero MMR တွေ \n\nwinrate တွေကိုပါတင်ပေးပါတယ် အဲ့တာတွေအပြင်ကိုမှ wp လိုလက်ဆောင်\n\nတွေလဲပေးပါသေးတယ်",
         "contact": "Ph: "+959976300241",
         "variations": [
             { "id": 1, "name": "Epic V to Legend V + 1 wp(Gift)", "price": 30000, "image": "/main/image/product/RankBoost.png" },
