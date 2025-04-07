@@ -35,9 +35,9 @@
         "description": "Hight Quality Low Budget",
         "contact": "Telegram: @Eight208",
         "variations": [
-            { "id": 1, "name": "T-Shirt", "price": 0, "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(1).png" },
-            { "id": 2, "name": "T-Shirt", "price": 0, "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(2).png" },
-            { "id": 3, "name": "T-Shirt", "price": 0, "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(3).png" }
+            { "id": 1, "name": "T-Shirt", "price": 45000, "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(1).png" },
+            { "id": 2, "name": "T-Shirt", "price": 45000, "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(2).png" },
+            { "id": 3, "name": "T-Shirt", "price": 45000, "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(3).png" }
         ]
     },
     {
