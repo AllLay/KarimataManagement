@@ -54,5 +54,17 @@
             { "id": 3, "name": "Mythic 1 star to 20 stars + 1 wp(Gift)", "price": 30000, "image": "/main/image/product/RankBoost.png" },
             { "id": 4, "name": "Mythic 21 stars to 50 + 1 wp(Gift)", "price": 45000, "image": "/main/image/product/RankBoost.png" }
         ]
+    },
+    {
+        "id": 5,
+        "name": "Designs",
+        "company": "Zhorik Digital Empire (ZDE)",
+        "owner": "yehtetzanko04@gmail.com",
+        "image": "/main/image/product/Zhorik/ZHORIK.jpg",
+        "description": "Zhorik Digital Empire (ZDE) delivers powerful and stylish digital creations,\n\nfrom logos and profiles to websites and portfolios,\n\ncrafted to make your brand unforgettable.",
+        "contact": "",
+        "variations": [
+            { "id": 1, "name": "Designs", "price": 30000, "image": "/main/image/product/Zhorik/ZHORIK.jpg" }
+        ]
     }
 ]
