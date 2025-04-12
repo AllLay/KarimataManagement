@@ -57,14 +57,34 @@
     },
     {
         "id": 5,
-        "name": "Designs",
+        "name": "Designs Services",
         "company": "Zhorik Digital Empire (ZDE)",
         "owner": "yehtetzanko04@gmail.com",
         "image": "/main/image/product/Zhorik/ZHORIK.jpg",
         "description": "Zhorik Digital Empire (ZDE) delivers powerful and stylish digital creations,\n\nfrom logos and profiles to websites and portfolios,\n\ncrafted to make your brand unforgettable.",
         "contact": "",
         "variations": [
-            { "id": 1, "name": "Designs", "price": 30000, "image": "/main/image/product/Zhorik/ZHORIK.jpg" }
+            { "id": 1, "name": "Business Logo", "price": 15, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 2, "name": "Normal Logo", "price": 10, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 3, "name": "Content Design (Social Post etc.)", "price": 5, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 4, "name": "Ads Design", "price": 8, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 5, "name": "Certificate Design", "price": 10, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 6, "name": "Portfolio Design", "price": 12, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 7, "name": "Game Profile Design", "price": 12, "image": "/main/image/product/Zhorik/ZHORIK.jpg" }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Web Pages (Front-End Only)",
+        "company": "Zhorik Digital Empire (ZDE)",
+        "owner": "yehtetzanko04@gmail.com",
+        "image": "/main/image/product/Zhorik/ZHORIK.jpg",
+        "description": "Zhorik Digital Empire (ZDE) delivers powerful and stylish digital creations,\n\nfrom logos and profiles to websites and portfolios,\n\ncrafted to make your brand unforgettable.",
+        "contact": "",
+        "variations": [
+            { "id": 1, "name": "Business Website", "price": 55, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 2, "name": "Clothing Brand Website", "price": 35, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 3, "name": "Portfolio Website", "price": 30, "image": "/main/image/product/Zhorik/ZHORIK.jpg" }
         ]
     }
 ]
