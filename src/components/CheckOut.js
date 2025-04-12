@@ -56,7 +56,7 @@ const CheckOut = () => {
           className="w-48 h-48 rounded-md mb-4 border-4 border-gray-600 object-cover"
         />
         <p className="text-lg font-bold text-yellow-400">
-          {new Intl.NumberFormat().format(selectedVariation.price)} {selectedProduct.selectedVariation.currency}
+          {new Intl.NumberFormat().format(selectedVariation.price)} {selectedVariation.currency}
         </p>
         <p className="text-sm text-gray-300 mb-4">{product.description}</p>
         
