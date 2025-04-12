@@ -8,10 +8,10 @@
         "description": "ဒီ Programကို ဝယ်ယူတဲ့သူတွေဟာ အရပ်ရှည်ဖိုအတွက်အခွင့်အရေးပိုရမှာဖြစ်ပြီးစနစ်တကျ လိုက်နာမယ်ဆိုရင်တော့ အရပ်ရှည်ကိုရှည်လာမှာဖြစ်ပါတယ်။",
         "contact": "09445500066",
         "variations": [
-            { "id": 1, "name": "Fitness Course-1", "price": 10000, "image": "/main/image/product/FitnessSDK.png" },
-            { "id": 2, "name": "Fitness Course-2", "price": 25000, "image": "/main/image/product/FitnessSDK.png" },
-            { "id": 3, "name": "Fitness Course-3", "price": 35000, "image": "/main/image/product/FitnessSDK.png" },
-            { "id": 4, "name": "Fitness Course-4", "price": 65000, "image": "/main/image/product/FitnessSDK.png" }
+            { "id": 1, "name": "Fitness Course-1", "price": 10000, "currency": "MMK", "image": "/main/image/product/FitnessSDK.png" },
+            { "id": 2, "name": "Fitness Course-2", "price": 25000, "currency": "MMK", "image": "/main/image/product/FitnessSDK.png" },
+            { "id": 3, "name": "Fitness Course-3", "price": 35000, "currency": "MMK", "image": "/main/image/product/FitnessSDK.png" },
+            { "id": 4, "name": "Fitness Course-4", "price": 65000, "currency": "MMK", "image": "/main/image/product/FitnessSDK.png" }
         ]
     },
     {
@@ -23,7 +23,7 @@
         "description": "TikTok automation ဆိုတာကတော့ ရှင်းပါတယ်👀\n\nFace မပါဘဲ video တွေလုပ်ပြီး အဲ့အတွက် is TikTok ကနေ reward ပြန်ပေးတာဖြစ်ပါတယ် 🐷\n\n5ကောင့်လောက်လုပ်ထားရင်ကို ရှယ်ပဲနော် ဘရိုတို🪧\n\nကျနော့်တိုနဲ့လက်တွဲရင်တော့ 100% ရအောင် ကူညီပေးမှာဖြစ်ပါတယ် 📈",
         "contact": "Telegram: @rihyo1457",
         "variations": [
-            { "id": 1, "name": "TikTok Course", "price": 30000, "image": "/main/image/product/TikTokAutomation.png" }
+            { "id": 1, "name": "TikTok Course", "price": 30000, "currency": "MMK", "image": "/main/image/product/TikTokAutomation.png" }
         ]
     },
     {
@@ -35,9 +35,9 @@
         "description": "Hight Quality Low Budget",
         "contact": "Telegram: @Eight208",
         "variations": [
-            { "id": 1, "name": "T-Shirt", "price": 45000, "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(1).png" },
-            { "id": 2, "name": "T-Shirt", "price": 45000, "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(2).png" },
-            { "id": 3, "name": "T-Shirt", "price": 45000, "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(3).png" }
+            { "id": 1, "name": "T-Shirt", "price": 45000, "currency": "MMK", "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(1).png" },
+            { "id": 2, "name": "T-Shirt", "price": 45000, "currency": "MMK", "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(2).png" },
+            { "id": 3, "name": "T-Shirt", "price": 45000, "currency": "MMK", "image": "/main/image/product/Thuta's/photo_2025-04-05_17-57-06(3).png" }
         ]
     },
     {
@@ -49,10 +49,10 @@
         "description": "Player တွေကိုလိုချင်တဲ့ rank အထိတင်ပေးပြီးတော့rank boosting service \n\nကိုလုပ်ရင်လဲ rank တစ်ခုထဲမဟုတ်ပဲနဲ့ ကိုယ်လိုချင်တဲ့ hero MMR တွေ \n\nwinrate တွေကိုပါတင်ပေးပါတယ် အဲ့တာတွေအပြင်ကိုမှ wp လိုလက်ဆောင်\n\nတွေလဲပေးပါသေးတယ်",
         "contact": "Ph: +959976300241",
         "variations": [
-            { "id": 1, "name": "Epic V to Legend V + 1 wp(Gift)", "price": 30000, "image": "/main/image/product/RankBoost.png" },
-            { "id": 2, "name": "Legend V to Mythic + 2 wp(Gift)", "price": 65000, "image": "/main/image/product/RankBoost.png" },
-            { "id": 3, "name": "Mythic 1 star to 20 stars + 1 wp(Gift)", "price": 30000, "image": "/main/image/product/RankBoost.png" },
-            { "id": 4, "name": "Mythic 21 stars to 50 + 1 wp(Gift)", "price": 45000, "image": "/main/image/product/RankBoost.png" }
+            { "id": 1, "name": "Epic V to Legend V + 1 wp(Gift)", "price": 30000, "currency": "MMK", "image": "/main/image/product/RankBoost.png" },
+            { "id": 2, "name": "Legend V to Mythic + 2 wp(Gift)", "price": 65000, "currency": "MMK", "image": "/main/image/product/RankBoost.png" },
+            { "id": 3, "name": "Mythic 1 star to 20 stars + 1 wp(Gift)", "price": 30000, "currency": "MMK", "image": "/main/image/product/RankBoost.png" },
+            { "id": 4, "name": "Mythic 21 stars to 50 + 1 wp(Gift)", "price": 45000, "currency": "MMK", "image": "/main/image/product/RankBoost.png" }
         ]
     },
     {
@@ -64,13 +64,13 @@
         "description": "Zhorik Digital Empire (ZDE) delivers powerful and stylish digital creations,\n\nfrom logos and profiles to websites and portfolios,\n\ncrafted to make your brand unforgettable.",
         "contact": "",
         "variations": [
-            { "id": 1, "name": "Business Logo", "price": 15, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
-            { "id": 2, "name": "Normal Logo", "price": 10, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
-            { "id": 3, "name": "Content Design (Social Post etc.)", "price": 5, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
-            { "id": 4, "name": "Ads Design", "price": 8, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
-            { "id": 5, "name": "Certificate Design", "price": 10, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
-            { "id": 6, "name": "Portfolio Design", "price": 12, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
-            { "id": 7, "name": "Game Profile Design", "price": 12, "image": "/main/image/product/Zhorik/ZHORIK.jpg" }
+            { "id": 1, "name": "Business Logo", "price": 15, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 2, "name": "Normal Logo", "price": 10, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 3, "name": "Content Design (Social Post etc.)", "price": 5, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 4, "name": "Ads Design", "price": 8, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 5, "name": "Certificate Design", "price": 10, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 6, "name": "Portfolio Design", "price": 12, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 7, "name": "Game Profile Design", "price": 12, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" }
         ]
     },
     {
@@ -82,9 +82,9 @@
         "description": "Zhorik Digital Empire (ZDE) delivers powerful and stylish digital creations,\n\nfrom logos and profiles to websites and portfolios,\n\ncrafted to make your brand unforgettable.",
         "contact": "",
         "variations": [
-            { "id": 1, "name": "Business Website", "price": 55, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
-            { "id": 2, "name": "Clothing Brand Website", "price": 35, "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
-            { "id": 3, "name": "Portfolio Website", "price": 30, "image": "/main/image/product/Zhorik/ZHORIK.jpg" }
+            { "id": 1, "name": "Business Website", "price": 55, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 2, "name": "Clothing Brand Website", "price": 35, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 3, "name": "Portfolio Website", "price": 30, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" }
         ]
     }
 ]
