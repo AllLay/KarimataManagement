@@ -39,7 +39,7 @@ const ProductDetail = () => {
             By {selectedProduct.company}
           </h3>
           <p className="text-lg font-bold text-yellow-400">
-            {new Intl.NumberFormat().format(selectedProduct.selectedVariation.price)} MMK
+            {new Intl.NumberFormat().format(selectedProduct.selectedVariation.price)} {selectedProduct.selectedVariation.currency}
           </p>
           <p className="mt-3 text-sm text-gray-300">{selectedProduct.description}</p>
           <br />
