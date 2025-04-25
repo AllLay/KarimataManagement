@@ -86,5 +86,19 @@
             { "id": 2, "name": "Clothing Brand Website", "price": 35, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
             { "id": 3, "name": "Portfolio Website", "price": 30, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" }
         ]
+    },
+    {
+        "id": 7,
+        "name": "Construction Products",
+        "company": "Karimata Management",
+        "owner": "thawhtetsan.15e@gmail.com",
+        "image": "/main/image/product//ZHORIK.jpg",
+        "description": "Zhorik Digital Empire (ZDE) delivers powerful and stylish digital creations,\n\nfrom logos and profiles to websites and portfolios,\n\ncrafted to make your brand unforgettable.",
+        "contact": "Ph: +959443223447",
+        "variations": [
+            { "id": 1, "name": "Business Website", "price": 55, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 2, "name": "Clothing Brand Website", "price": 35, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" },
+            { "id": 3, "name": "Portfolio Website", "price": 30, "currency": "USD", "image": "/main/image/product/Zhorik/ZHORIK.jpg" }
+        ]
     }
 ]
