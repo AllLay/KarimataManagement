@@ -80,13 +80,13 @@
         "name": "BETIME company limited",
         "company": "BETIME company limited",
         "owner": "thawhtetsan.15e@gmail.com",
-        "image": "/main/image/Karimata-Management-Circle.png",
+        "image": "/main/image/product/BeTime/BeTime.jpg",
         "description": "",
         "contact": "Ph: +959443223447",
         "variations": [
-            { "id": 1, "name": "84 Chain SR", "price": 5500, "currency": "MMK", "image": "/main/image/product/KarimataManagement/84ChainSR.png" },
-            { "id": 2, "name": "Chain Spocket", "price": 28000, "currency": "MMK", "image": "/main/image/product/KarimataManagement/ChainSpocket.png" },
-            { "id": 3, "name": "Engine Oil", "price": 15000, "currency": "MMK", "image": "/main/image/product/KarimataManagement/EngineOil.png" }
+            { "id": 1, "name": "84 Chain SR", "price": 5500, "currency": "MMK", "image": "/main/image/product/BeTime/84ChainSR.png" },
+            { "id": 2, "name": "Chain Spocket", "price": 28000, "currency": "MMK", "image": "/main/image/product/BeTime/ChainSpocket.png" },
+            { "id": 3, "name": "Engine Oil", "price": 15000, "currency": "MMK", "image": "/main/image/product/BeTime/EngineOil.png" }
         ]
     },
     {
