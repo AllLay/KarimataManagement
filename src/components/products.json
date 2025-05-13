@@ -16,18 +16,6 @@
     },
     {
         "id": 2,
-        "name": "TikTok Automation Course",
-        "company": "TikTok Automation",
-        "owner": "",
-        "image": "/main/image/product/TikTokAutomation.png",
-        "description": "TikTok automation ဆိုတာကတော့ ရှင်းပါတယ်👀\n\nFace မပါဘဲ video တွေလုပ်ပြီး အဲ့အတွက် is TikTok ကနေ reward ပြန်ပေးတာဖြစ်ပါတယ် 🐷\n\n5ကောင့်လောက်လုပ်ထားရင်ကို ရှယ်ပဲနော် ဘရိုတို🪧\n\nကျနော့်တိုနဲ့လက်တွဲရင်တော့ 100% ရအောင် ကူညီပေးမှာဖြစ်ပါတယ် 📈",
-        "contact": "Telegram: @rihyo1457",
-        "variations": [
-            { "id": 1, "name": "TikTok Course", "price": 30000, "currency": "MMK", "image": "/main/image/product/TikTokAutomation.png" }
-        ]
-    },
-    {
-        "id": 3,
         "name": "T-Shirt",
         "company": "Eight Two O Eight",
         "owner": "e8152280@gmail.com",
@@ -41,7 +29,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Game Boost",
         "company": "Jade Tiger Digital Products",
         "owner": "richardhtoonay@gmail.com",
@@ -56,7 +44,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Designs Services",
         "company": "Zhorik Digital Empire (ZDE)",
         "owner": "yehtetzanko04@gmail.com",
@@ -74,7 +62,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 5,
         "name": "Web Pages (Front-End Only)",
         "company": "Zhorik Digital Empire (ZDE)",
         "owner": "yehtetzanko04@gmail.com",
@@ -88,7 +76,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "Construction Products",
         "company": "Karimata Management",
         "owner": "thawhtetsan.15e@gmail.com",
@@ -102,7 +90,7 @@
         ]
     },
     {
-        "id": 8,
+        "id": 7,
         "name": "Cloth",
         "company": "Saw Clothing",
         "owner": "aungminkhantchuOOO@gmail.com",
