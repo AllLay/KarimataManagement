@@ -98,8 +98,8 @@
         "description": "We used doodle art and made to be comfortable to wear and cool",
         "contact": "Ph: +95970578789",
         "variations": [
-            { "id": 1, "name": "T-Shirt", "price": 60000, "currency": "MMK", "image": "/main/image/product/grey.jpg" },
-            { "id": 2, "name": "T-Shirt", "price": 60000, "currency": "MMK", "image": "/main/image/product/red.jpg" }
+            { "id": 1, "name": "T-Shirt", "price": 60000, "currency": "MMK", "image": "/main/image/product/SawClothing/grey.jpg" },
+            { "id": 2, "name": "T-Shirt", "price": 60000, "currency": "MMK", "image": "/main/image/product/SawClothing/red.jpg" }
         ]
     }
 ]
