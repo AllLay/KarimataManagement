@@ -100,5 +100,18 @@
             { "id": 2, "name": "Chain Spocket", "price": 28000, "currency": "MMK", "image": "/main/image/product/KarimataManagement/ChainSpocket.png" },
             { "id": 3, "name": "Engine Oil", "price": 15000, "currency": "MMK", "image": "/main/image/product/KarimataManagement/EngineOil.png" }
         ]
+    },
+    {
+        "id": 8,
+        "name": "Cloth",
+        "company": "Saw Clothing",
+        "owner": "aungminkhantchuOOO@gmail.com",
+        "image": "/main/image/product/",
+        "description": "We used doodle art and made to be comfortable to wear and cool",
+        "contact": "Ph: +95970578789",
+        "variations": [
+            { "id": 1, "name": "T-Shirt", "price": 60000, "currency": "MMK", "image": "/main/image/product/" },
+            { "id": 2, "name": "T-Shirt", "price": 60000, "currency": "MMK", "image": "/main/image/product/" }
+        ]
     }
 ]
