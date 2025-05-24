@@ -101,5 +101,20 @@
             { "id": 1, "name": "T-Shirt", "price": 60000, "currency": "MMK", "image": "/main/image/product/SawClothing/grey.jpg" },
             { "id": 2, "name": "T-Shirt", "price": 60000, "currency": "MMK", "image": "/main/image/product/SawClothing/red.jpg" }
         ]
+    },
+    {
+        "id": 8,
+        "name": "T-Shirt (Thailand cotton)",
+        "company": "STYLX Studio",
+        "owner": "aungminkhantchuOOO@gmail.com",
+        "image": "/main/image/product/SawClothing/SawClothing.jpg",
+        "description": "I use simple designs and powerful messages to create T-shirts that feel good and inspire you every day.",
+        "contact": "Ph: 09-982159132",
+        "variations": [
+            { "id": 1, "name": "Small", "price": 29000, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" },
+            { "id": 2, "name": "Medium", "price": 30500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" }
+            { "id": 3, "name": "Large", "price": 32500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" }
+            { "id": 4, "name": "XL/2XL", "price": 33500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" }
+        ]
     }
 ]
