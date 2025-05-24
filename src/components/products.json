@@ -112,8 +112,8 @@
         "contact": "Ph: 09-982159132",
         "variations": [
             { "id": 1, "name": "Small", "price": 29000, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" },
-            { "id": 2, "name": "Medium", "price": 30500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" }
-            { "id": 3, "name": "Large", "price": 32500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" }
+            { "id": 2, "name": "Medium", "price": 30500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" },
+            { "id": 3, "name": "Large", "price": 32500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" },
             { "id": 4, "name": "XL/2XL", "price": 33500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" }
         ]
     }
