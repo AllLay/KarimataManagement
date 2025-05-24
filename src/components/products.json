@@ -106,8 +106,8 @@
         "id": 8,
         "name": "T-Shirt (Thailand cotton)",
         "company": "STYLX Studio",
-        "owner": "aungminkhantchuOOO@gmail.com",
-        "image": "/main/image/product/SawClothing/SawClothing.jpg",
+        "owner": "shint7970@gmail.com",
+        "image": "/main/image/product/STYLX/STYLX.png",
         "description": "I use simple designs and powerful messages to create T-shirts that feel good and inspire you every day.",
         "contact": "Ph: 09-982159132",
         "variations": [
@@ -115,6 +115,96 @@
             { "id": 2, "name": "Medium", "price": 30500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" },
             { "id": 3, "name": "Large", "price": 32500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" },
             { "id": 4, "name": "XL/2XL", "price": 33500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "T-Shirt (Thailand cotton)",
+        "company": "STYLX Studio",
+        "owner": "shint7970@gmail.com",
+        "image": "/main/image/product/STYLX/STYLX.png",
+        "description": "I use simple designs and powerful messages to create T-shirts that feel good and inspire you every day.",
+        "contact": "Ph: 09-982159132",
+        "variations": [
+            { "id": 1, "name": "Small", "price": 29000, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-30.jpg" },
+            { "id": 2, "name": "Medium", "price": 30500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-30.jpg" },
+            { "id": 3, "name": "Large", "price": 32500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-30.jpg" },
+            { "id": 4, "name": "XL/2XL", "price": 33500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-30.jpg" }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "T-Shirt (Thailand cotton)",
+        "company": "STYLX Studio",
+        "owner": "shint7970@gmail.com",
+        "image": "/main/image/product/STYLX/STYLX.png",
+        "description": "I use simple designs and powerful messages to create T-shirts that feel good and inspire you every day.",
+        "contact": "Ph: 09-982159132",
+        "variations": [
+            { "id": 1, "name": "Small", "price": 29000, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-31.jpg" },
+            { "id": 2, "name": "Medium", "price": 30500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-31.jpg" },
+            { "id": 3, "name": "Large", "price": 32500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-31.jpg" },
+            { "id": 4, "name": "XL/2XL", "price": 33500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-31.jpg" }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "T-Shirt (Thailand cotton)",
+        "company": "STYLX Studio",
+        "owner": "shint7970@gmail.com",
+        "image": "/main/image/product/STYLX/STYLX.png",
+        "description": "I use simple designs and powerful messages to create T-shirts that feel good and inspire you every day.",
+        "contact": "Ph: 09-982159132",
+        "variations": [
+            { "id": 1, "name": "Small", "price": 29000, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-33.jpg" },
+            { "id": 2, "name": "Medium", "price": 30500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-33.jpg" },
+            { "id": 3, "name": "Large", "price": 32500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-33.jpg" },
+            { "id": 4, "name": "XL/2XL", "price": 33500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-33.jpg" }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "T-Shirt (Thailand cotton)",
+        "company": "STYLX Studio",
+        "owner": "shint7970@gmail.com",
+        "image": "/main/image/product/STYLX/STYLX.png",
+        "description": "I use simple designs and powerful messages to create T-shirts that feel good and inspire you every day.",
+        "contact": "Ph: 09-982159132",
+        "variations": [
+            { "id": 1, "name": "Small", "price": 29000, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-34.jpg" },
+            { "id": 2, "name": "Medium", "price": 30500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-34.jpg" },
+            { "id": 3, "name": "Large", "price": 32500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-34.jpg" },
+            { "id": 4, "name": "XL/2XL", "price": 33500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-34.jpg" }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "T-Shirt (Thailand cotton)",
+        "company": "STYLX Studio",
+        "owner": "shint7970@gmail.com",
+        "image": "/main/image/product/STYLX/STYLX.png",
+        "description": "I use simple designs and powerful messages to create T-shirts that feel good and inspire you every day.",
+        "contact": "Ph: 09-982159132",
+        "variations": [
+            { "id": 1, "name": "Small", "price": 29000, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-35.jpg" },
+            { "id": 2, "name": "Medium", "price": 30500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-35.jpg" },
+            { "id": 3, "name": "Large", "price": 32500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-35.jpg" },
+            { "id": 4, "name": "XL/2XL", "price": 33500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-35.jpg" }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "T-Shirt (Thailand cotton)",
+        "company": "STYLX Studio",
+        "owner": "shint7970@gmail.com",
+        "image": "/main/image/product/STYLX/STYLX.png",
+        "description": "I use simple designs and powerful messages to create T-shirts that feel good and inspire you every day.",
+        "contact": "Ph: 09-982159132",
+        "variations": [
+            { "id": 1, "name": "Small", "price": 29000, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-37.jpg" },
+            { "id": 2, "name": "Medium", "price": 30500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-37.jpg" },
+            { "id": 3, "name": "Large", "price": 32500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-37.jpg" },
+            { "id": 4, "name": "XL/2XL", "price": 33500, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-37.jpg" }
         ]
     }
 ]
