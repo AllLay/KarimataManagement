@@ -219,5 +219,35 @@
             { "id": 1, "name": "Small", "price": 22000, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" },
             { "id": 2, "name": "Xl -2XL", "price": 26000, "currency": "MMK", "image": "/main/image/product/STYLX/photo_2025-05-24_16-26-04.jpg" }
         ]
+    },
+    {
+        "id": 16,
+        "name": "Crown Syndicate's T-Shirt (Thailand cotton)",
+        "company": "Crown Syndicate",
+        "owner": "lyoranstd@gmail.com",
+        "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate.png",
+        "description": "We target who like street wear fashion",
+        "contact": "Telegram: @I_not_your",
+        "variations": [
+            { "id": 1, "name": "Small", "price": 30000, "currency": "MMK", "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate.png" },
+            { "id": 2, "name": "Medium", "price": 31500, "currency": "MMK", "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate.png" },
+            { "id": 2, "name": "Large", "price": 33500, "currency": "MMK", "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate.png" },
+            { "id": 2, "name": "XL/2XL", "price": 34500, "currency": "MMK", "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate.png" }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Crown Syndicate's T-Shirt (China cotton)",
+        "company": "Crown Syndicate",
+        "owner": "lyoranstd@gmail.com",
+        "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate.png",
+        "description": "We target who like street wear fashion",
+        "contact": "Telegram: @I_not_your",
+        "variations": [
+            { "id": 1, "name": "Small", "price": 19000, "currency": "MMK", "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate_2.png" },
+            { "id": 2, "name": "Medium", "price": 20000, "currency": "MMK", "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate_2.png" },
+            { "id": 3, "name": "Large", "price": 21000, "currency": "MMK", "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate_2.png" },
+            { "id": 3, "name": "XL/2XL", "price": 23000, "currency": "MMK", "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate_2.png" }
+        ]
     }
 ]
