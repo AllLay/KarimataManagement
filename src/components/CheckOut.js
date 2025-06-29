@@ -19,7 +19,7 @@ const CheckOut = () => {
   const handlePurchase = async () => {
   try {
     const response = await fetch(
-      "https://karimatamanagement-production.up.railway.app/checkout",
+      "https://aung-group-of-business-backend.onrender.com/checkout",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
