@@ -256,7 +256,7 @@
         "company": "TRENDZT_Clothing",
         "owner": "clothingtrendzy@gmail.com",
         "image": "/main/image/product/TRENZY_Clothing/photo_2025-07-07_20-54-38.jpg",
-        "description": "high-quality anime streetwear T-shirts for fans.\n\Oversized fit, perfect for everyday style",
+        "description": "high-quality anime streetwear T-shirts for fans.\\nOversized fit, perfect for everyday style",
         "contact": "Ph: 09669038326",
         "variations": [
             { "id": 1, "name": "Small", "price": 30000, "currency": "MMK", "image": "/main/image/product/TRENZY_Clothing/vfshgfhgf.png" },
