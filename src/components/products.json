@@ -255,11 +255,13 @@
         "name": "Anime street wear",
         "company": "TRENDZT_Clothing",
         "owner": "clothingtrendzy@gmail.com",
-        "image": "/main/image/product/Crown_Syndicate/Crown_Syndicate.jpg",
+        "image": "/main/image/product/TRENZY_Clothing/photo_2025-07-07_20-54-38.jpg",
         "description": "high-quality anime streetwear T-shirts for fans.\n\Oversized fit, perfect for everyday style",
         "contact": "Ph: 09669038326",
         "variations": [
-            { "id": 1, "name": "Small", "price": 19000, "currency": "MMK", "image": "/main/image/product/Crown_Syndicate/China_cotton.jpg" },
+            { "id": 1, "name": "Small", "price": 30000, "currency": "MMK", "image": "/main/image/product/TRENZY_Clothing/vfshgfhgf.png" },
+            { "id": 1, "name": "Medium", "price": 31500, "currency": "MMK", "image": "/main/image/product/TRENZY_Clothing/vfshgfhgf.png" },
+            { "id": 1, "name": "Large", "price": 33500, "currency": "MMK", "image": "/main/image/product/TRENZY_Clothing/vfshgfhgf.png" },
         ]
     }
 ]
