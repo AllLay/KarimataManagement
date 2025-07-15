@@ -261,7 +261,27 @@
       "variations": [
         { "id": 1, "name": "Small", "price": 30000, "currency": "MMK", "image": "/main/image/product/TRENZY_Clothing/vfshgfhgf.png" },
         { "id": 2, "name": "Medium", "price": 31500, "currency": "MMK", "image": "/main/image/product/TRENZY_Clothing/vfshgfhgf.png" },
-        { "id": 3, "name": "Large","price": 33500, "currency": "MMK", "image": "/main/image/product/TRENZY_Clothing/vfshgfhgf.png" }
+        { "id": 3, "name": "Large", "price": 33500, "currency": "MMK", "image": "/main/image/product/TRENZY_Clothing/vfshgfhgf.png" }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "T-shirt Hoddie and sneaker Clothing",
+      "company": "NFC",
+      "owner": "luffy203010@gmail.com",
+      "image": "/main/image/product/NFC/",
+      "description": "high-quality anime streetwear T-shirts for fans.\nOversized fit, perfect for everyday style",
+      "contact": "Ph: 09669038326",
+      "variations": [
+        { "id": 1, "name": "e", "price": 40000, "currency": "MMK", "image": "/main/image/product/NFC/photo_2025-07-15_20-50-57.jpg" },
+        { "id": 2, "name": "e", "price": 36000, "currency": "MMK", "image": "/main/image/product/NFC/photo_2025-07-15_20-50-58.jpg" },
+        { "id": 3, "name": "e", "price": 40000, "currency": "MMK", "image": "/main/image/product/NFC/photo_2025-07-15_20-51-00.jpg" },
+        { "id": 4, "name": "e", "price": 34000, "currency": "MMK", "image": "/main/image/product/NFC/photo_2025-07-15_20-51-02.jpg" },
+        { "id": 5, "name": "e", "price": 40000, "currency": "MMK", "image": "/main/image/product/NFC/photo_5_2025-07-15_20-51-09.jpg" },
+        { "id": 6, "name": "e", "price": 40000, "currency": "MMK", "image": "/main/image/product/NFC/photo_4_2025-07-15_20-51-09.jpg" },
+        { "id": 7, "name": "e", "price": 15000, "currency": "MMK", "image": "/main/image/product/NFC/photo_3_2025-07-15_20-51-09.jpg" },
+        { "id": 8, "name": "e", "price": 25000, "currency": "MMK", "image": "/main/image/product/NFC/photo_2_2025-07-15_20-51-09.jpg" },
+        { "id": 9, "name": "e", "price": 25000, "currency": "MMK", "image": "/main/image/product/NFC/photo_1_2025-07-15_20-51-09.jpg" },
       ]
     }
 ]
